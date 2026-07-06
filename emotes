@@ -596,7 +596,7 @@ task.wait(0.3)
 
 local function LoadEmotes()
 	local success, result = pcall(function()
-		local response = game:HttpGet("https://raw.githubusercontent.com/zyrovell/Vexro/main/emotes.json")
+		local response = game:HttpGet("https://raw.githubusercontent.com/josearlindodasilva07-svg/Emotes-2/refs/heads/main/emotes%20teste%20adicionar%20id.txt")
 		return HttpService:JSONDecode(response)
 	end)
 	
